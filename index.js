@@ -7,7 +7,7 @@ const LIVES_TXT = {
     name: 'TXT',
     type: 0,
     playerType: 1,
-    url: 'https://freetv.fun/test_channels_new.txt', // 直播源
+    url: 'https://t.freetv.fun/m3u/playlist.txt', // 直播源
     epg: 'https://epg.v1.mk/json?ch={name}&date={date}', // 节目地址
     logo: 'https://epg.v1.mk/logo/{name}.png', // 台标地址
     ua: 'okhttp/3.15', //用户代理
